@@ -1,0 +1,15 @@
+D:\IT\Lesson1\Lesson1\bin\Debug\net6.0\Lesson1.exe
+D:\IT\Lesson1\Lesson1\bin\Debug\net6.0\Lesson1.deps.json
+D:\IT\Lesson1\Lesson1\bin\Debug\net6.0\Lesson1.runtimeconfig.json
+D:\IT\Lesson1\Lesson1\bin\Debug\net6.0\Lesson1.dll
+D:\IT\Lesson1\Lesson1\bin\Debug\net6.0\ref\Lesson1.dll
+D:\IT\Lesson1\Lesson1\bin\Debug\net6.0\Lesson1.pdb
+D:\IT\Lesson1\Lesson1\obj\Debug\net6.0\Lesson1.csproj.AssemblyReference.cache
+D:\IT\Lesson1\Lesson1\obj\Debug\net6.0\Lesson1.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\Lesson1\Lesson1\obj\Debug\net6.0\Lesson1.AssemblyInfoInputs.cache
+D:\IT\Lesson1\Lesson1\obj\Debug\net6.0\Lesson1.AssemblyInfo.cs
+D:\IT\Lesson1\Lesson1\obj\Debug\net6.0\Lesson1.csproj.CoreCompileInputs.cache
+D:\IT\Lesson1\Lesson1\obj\Debug\net6.0\Lesson1.dll
+D:\IT\Lesson1\Lesson1\obj\Debug\net6.0\ref\Lesson1.dll
+D:\IT\Lesson1\Lesson1\obj\Debug\net6.0\Lesson1.pdb
+D:\IT\Lesson1\Lesson1\obj\Debug\net6.0\Lesson1.genruntimeconfig.cache

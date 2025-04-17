@@ -1,0 +1,15 @@
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\bin\Debug\net6.0\Lesson02.exe
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\bin\Debug\net6.0\Lesson02.deps.json
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\bin\Debug\net6.0\Lesson02.runtimeconfig.json
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\bin\Debug\net6.0\Lesson02.dll
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\bin\Debug\net6.0\ref\Lesson02.dll
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\bin\Debug\net6.0\Lesson02.pdb
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\obj\Debug\net6.0\Lesson02.csproj.AssemblyReference.cache
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\obj\Debug\net6.0\Lesson02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\obj\Debug\net6.0\Lesson02.AssemblyInfoInputs.cache
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\obj\Debug\net6.0\Lesson02.AssemblyInfo.cs
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\obj\Debug\net6.0\Lesson02.csproj.CoreCompileInputs.cache
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\obj\Debug\net6.0\Lesson02.dll
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\obj\Debug\net6.0\ref\Lesson02.dll
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\obj\Debug\net6.0\Lesson02.pdb
+C:\Users\DAINAM UNIVERSITY\source\repos\Lesson02\Lesson02\obj\Debug\net6.0\Lesson02.genruntimeconfig.cache
