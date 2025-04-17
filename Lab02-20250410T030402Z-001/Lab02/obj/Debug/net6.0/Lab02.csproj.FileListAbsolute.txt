@@ -1,0 +1,14 @@
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\obj\Debug\net6.0\Lab02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\obj\Debug\net6.0\Lab02.AssemblyInfoInputs.cache
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\obj\Debug\net6.0\Lab02.AssemblyInfo.cs
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\obj\Debug\net6.0\Lab02.csproj.CoreCompileInputs.cache
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\bin\Debug\net6.0\Lab02.exe
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\bin\Debug\net6.0\Lab02.deps.json
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\bin\Debug\net6.0\Lab02.runtimeconfig.json
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\bin\Debug\net6.0\Lab02.dll
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\bin\Debug\net6.0\ref\Lab02.dll
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\bin\Debug\net6.0\Lab02.pdb
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\obj\Debug\net6.0\Lab02.dll
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\obj\Debug\net6.0\ref\Lab02.dll
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\obj\Debug\net6.0\Lab02.pdb
+C:\Users\DAINAM UNIVERSITY\source\repos\Lab02\Lab02\obj\Debug\net6.0\Lab02.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\bin\Debug\net9.0\HocDelegates.exe
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\bin\Debug\net9.0\HocDelegates.deps.json
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\bin\Debug\net9.0\HocDelegates.runtimeconfig.json
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\bin\Debug\net9.0\HocDelegates.dll
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\bin\Debug\net9.0\HocDelegates.pdb
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\obj\Debug\net9.0\HocDelegates.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\obj\Debug\net9.0\HocDelegates.AssemblyInfoInputs.cache
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\obj\Debug\net9.0\HocDelegates.AssemblyInfo.cs
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\obj\Debug\net9.0\HocDelegates.csproj.CoreCompileInputs.cache
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\obj\Debug\net9.0\HocDelegates.dll
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\obj\Debug\net9.0\refint\HocDelegates.dll
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\obj\Debug\net9.0\HocDelegates.pdb
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\obj\Debug\net9.0\HocDelegates.genruntimeconfig.cache
+D:\Kỳ 6\Back-End\HocDelegates\HocDelegates\obj\Debug\net9.0\ref\HocDelegates.dll
