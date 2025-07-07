@@ -1,0 +1,23 @@
+﻿<!-- Views/Administrator/BlogPosts/Details.cshtml -->
+@model Restaurant.Domain.Entities.BlogPost
+
+@{
+    ViewData["Title"] = "Chi tiết bài viết";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Tiêu đề</dt>
+        <dd class="col-sm-10">@Model.Title</dd>
+        <dt class="col-sm-2">Nội dung</dt>
+        <dd class="col-sm-10">@Model.Content</dd>
+        <dt class="col-sm-2">Ngày đăng</dt>
+        <dd class="col-sm-10">@Model.PostedAt.ToShortDateString()</dd>
+        <dt class="col-sm-2">Danh mục</dt>
+        <dd class="col-sm-10">@Model.Category?.Name</dd>
+    </dl>
+</div>
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Sửa</a>
+<a asp-action="Index" class="btn btn-secondary">Trở lại</a>

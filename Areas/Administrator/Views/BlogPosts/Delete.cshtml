@@ -1,0 +1,23 @@
+﻿<!-- Views/Administrator/BlogPosts/Delete.cshtml -->
+@model Restaurant.Domain.Entities.BlogPost
+
+@{
+    ViewData["Title"] = "Xoá bài viết";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+<h3>Bạn có chắc chắn muốn xoá bài viết này không?</h3>
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Tiêu đề</dt>
+        <dd class="col-sm-10">@Model.Title</dd>
+        <dt class="col-sm-2">Ngày đăng</dt>
+        <dd class="col-sm-10">@Model.PostedAt.ToShortDateString()</dd>
+    </dl>
+</div>
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Xoá</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

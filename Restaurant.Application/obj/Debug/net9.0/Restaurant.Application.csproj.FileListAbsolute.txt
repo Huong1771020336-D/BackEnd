@@ -1,0 +1,11 @@
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Application\bin\Debug\net9.0\Restaurant.Application.deps.json
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Application\bin\Debug\net9.0\Restaurant.Application.dll
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Application\bin\Debug\net9.0\Restaurant.Application.pdb
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Application\obj\Debug\net9.0\Restaurant.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Application\obj\Debug\net9.0\Restaurant.Application.AssemblyInfoInputs.cache
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Application\obj\Debug\net9.0\Restaurant.Application.AssemblyInfo.cs
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Application\obj\Debug\net9.0\Restaurant.Application.csproj.CoreCompileInputs.cache
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Application\obj\Debug\net9.0\Restaurant.Application.dll
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Application\obj\Debug\net9.0\refint\Restaurant.Application.dll
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Application\obj\Debug\net9.0\Restaurant.Application.pdb
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Application\obj\Debug\net9.0\ref\Restaurant.Application.dll

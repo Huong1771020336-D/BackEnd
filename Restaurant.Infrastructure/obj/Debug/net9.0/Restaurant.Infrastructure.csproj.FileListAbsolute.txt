@@ -1,0 +1,17 @@
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\bin\Debug\net9.0\Restaurant.Infrastructure.deps.json
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\bin\Debug\net9.0\Restaurant.Infrastructure.runtimeconfig.json
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\bin\Debug\net9.0\Restaurant.Infrastructure.dll
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\bin\Debug\net9.0\Restaurant.Infrastructure.pdb
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\bin\Debug\net9.0\Restaurant.Domain.dll
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\bin\Debug\net9.0\Restaurant.Domain.pdb
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\obj\Debug\net9.0\Restaurant.Infrastructure.csproj.AssemblyReference.cache
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\obj\Debug\net9.0\Restaurant.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\obj\Debug\net9.0\Restaurant.Infrastructure.AssemblyInfoInputs.cache
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\obj\Debug\net9.0\Restaurant.Infrastructure.AssemblyInfo.cs
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\obj\Debug\net9.0\Restaurant.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\obj\Debug\net9.0\Restaura.93EDDBD4.Up2Date
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\obj\Debug\net9.0\Restaurant.Infrastructure.dll
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\obj\Debug\net9.0\refint\Restaurant.Infrastructure.dll
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\obj\Debug\net9.0\Restaurant.Infrastructure.pdb
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\obj\Debug\net9.0\Restaurant.Infrastructure.genruntimeconfig.cache
+D:\Kỳ 6\Back-End\Restaurant\Restaurant.Infrastructure\obj\Debug\net9.0\ref\Restaurant.Infrastructure.dll
