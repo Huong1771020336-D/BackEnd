@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Restaurant.Domain.Entities.GalleryImage>
+
+@{
+    ViewData["Title"] = "Thư viện ảnh";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Thư viện ảnh món ăn</h2>
+
+<div class="row">
+    @foreach (var img in Model)
+    {
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img src="~/@img.ImageUrl" class="card-img-top" alt="@img.Title" asp-append-version="true" />
+                <div class="card-body">
+                    <h5 class="card-title">@img.Title</h5>
+                </div>
+            </div>
+        </div>
+    }
+</div>

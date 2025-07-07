@@ -1,0 +1,123 @@
+﻿@using Microsoft.AspNetCore.Http
+@{
+    Layout = null;
+    var username = Context.Session.GetString("Username");
+    var role = Context.Session.GetString("Role");
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - La Vaca</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .navbar-pastel {
+            background-color: #FAF3E0;
+        }
+
+            .navbar-pastel .nav-link,
+            .navbar-pastel .navbar-brand {
+                color: #3E2723 !important;
+                font-weight: 500;
+            }
+
+                .navbar-pastel .nav-link:hover {
+                    background-color: #F5E6CC;
+                    border-radius: 6px;
+                }
+
+        .footer-pastel {
+            background-color: #FAF3E0;
+            color: #3E2723;
+        }
+
+        .nav-menu {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+    </style>
+</head>
+<body style="background-color: #fffefb;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-pastel shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2"
+               asp-controller="Home" asp-action="Index">
+                <img src="~/images/logo.png" alt="Logo" height="48" class="rounded-circle" />
+                <span class="fw-bold">La Vaca</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Menu chính giãn đều -->
+                <ul class="navbar-nav nav-menu mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" asp-controller="Menu" asp-action="Index">Thực đơn</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Reservation" asp-action="Create">Đặt bàn</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Blog" asp-action="Index">Bài viết</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Gallery" asp-action="Index">Thư viện ảnh</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Contact" asp-action="Create">Liên hệ</a></li>
+
+                    @if (role == "Admin")
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" asp-area="Administrator" asp-controller="Categories" asp-action="Index">Quản trị</a>
+                        </li>
+                    }
+
+                    @if (role == "Staff")
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" asp-area="Staff" asp-controller="Reservations" asp-action="Index">Xử lý đặt bàn</a>
+                        </li>
+                    }
+                </ul>
+
+                <!-- Đăng nhập / Đăng ký / Xin chào -->
+                <ul class="navbar-nav">
+                    @if (!string.IsNullOrEmpty(username))
+                    {
+                        <li class="nav-item">
+                            <span class="nav-link text-info">Xin chào, @username (@role)</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Logout">Đăng xuất</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Login">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Register">Đăng ký</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Nội dung -->
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-pastel text-center mt-5 py-4">
+        <small>&copy; @DateTime.Now.Year - La Vaca</small>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

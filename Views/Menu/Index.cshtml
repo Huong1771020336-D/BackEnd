@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Restaurant.Domain.Entities.FoodItem>
+
+@{
+    ViewData["Title"] = "Thực đơn";
+}
+
+<h2 class="mb-4">Thực đơn món ăn</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var item in Model)
+    {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="~/images/foods/@item.Image" class="card-img-top" alt="@item.Name" style="height: 200px; object-fit: cover;" />
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text text-muted">@item.Description</p>
+                    </div>
+                    <div class="card-footer">
+                        <strong class="text-danger">@item.Price.ToString("N0") ₫</strong>
+                    </div>
+                </div>
+            </div>
+    }
+</div>

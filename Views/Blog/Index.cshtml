@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Restaurant.Domain.Entities.BlogPost>
+
+@{
+    ViewData["Title"] = "Bài viết";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bài viết mới nhất</h2>
+
+@foreach (var post in Model)
+{
+    <div class="mb-4">
+        <h4>
+            <a asp-action="Details" asp-route-id="@post.Id">@post.Title</a>
+        </h4>
+        <p class="text-muted">Đăng ngày @post.PostedAt.ToShortDateString()</p>
+        <p>@(post.Content.Length > 100 ? post.Content.Substring(0, 100) + "..." : post.Content)</p>
+    </div>
+}

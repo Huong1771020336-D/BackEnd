@@ -1,0 +1,16 @@
+﻿@{
+    var role = Context.Session.GetString("Role");
+
+    if (role == "Admin")
+    {
+        Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+    }
+    else if (role == "Staff")
+    {
+        Layout = "~/Areas/Staff/Views/Shared/_Layout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml"; // layout mặc định cho người dùng
+    }
+}
